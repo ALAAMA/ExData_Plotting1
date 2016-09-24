@@ -1,5 +1,5 @@
 ##optional step setWD('Your working directory')
-setwd("/Volumes/C/Coursera/Electric power consumption-Assgnmt")
+#setwd("/Volumes/C/Coursera/Electric power consumption-Assgnmt")
 ##Download dataset to sub-directory "data"
 if(!file.exists( "./data") ) { dir.create("./data") }
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
